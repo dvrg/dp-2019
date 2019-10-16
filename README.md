@@ -72,7 +72,8 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
 4. maka repository akan tercopy ke lokal komputer kamu.
 
 #### 4.2 Melakukan Perubahan
-1. saat ingin menambahkan perubahan pada git, caranya `git commit -am "pesan perubahan"`
+1. saat ingin menambahkan file baru pada git, caranya `git add Materi-2.md` atau jika file barunya banyak, bisa diganti menjadi `git add .`
+2. saat ingin menambahkan perubahan pada git, caranya `git commit -am "pesan perubahan"`
 
 ---
 
