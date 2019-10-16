@@ -5,22 +5,23 @@ Materi pembelajaran Python untuk AMCC divisi Desktop Programming 2019
 1. (Git)[]
 2. (Bash/Terminal)[]
 3. (SSH)[]
+4. Kolaborasi Projek
 
 #### SSH
 Untuk melakukan pembuatan `SSH Key`, ikutin langkah-langkah berikut:
 1. Buka terminal (Linux) dan GitBash (Windows)
 2. ketikan `ssh-keygen` maka akan muncul pertanyaan seperti dibawah ini, hal ini memastikan tempat dimana `SSH Key` disimpan, tekan <kbd>Enter</kbd> untuk menyimpan secara default.
-```
+```bash
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/genpati/.ssh/id_rsa):
 ```
 3. lalu muncul pertanyaan seperti ini, artinya, pengguna diminta untuk memasukan kata kunci khusus untuk `SSH Key` yang akan di buat, tekan <kbd>Enter</kbd> untuk menyimpan secara default.
-```
+```bash
 Enter passphrase (empty for no passphrase):
 Enter same passphrase again:
 ```
 4. kamu berhasil membuat `SSH Key`
-```
+```bash
 Your identification has been saved in /home/genpati/.ssh/id_rsa.
 Your public key has been saved in /home/genpati/.ssh/id_rsa.pub.
 The key fingerprint is:
@@ -48,3 +49,19 @@ Sumber :
 [https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent](https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 [1]:https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account
+
+#### Clone Repository
+1. pada halaman ini, klik clone repository > copy SSH
+2. Buka Terminal (Linux) atau GitBash (Windows), lalu clone Repository dengan cara
+```bash
+$ git clone git@github.com:dvrg/dp-2019.git
+```
+3. untuk pertamkali clone, fingerprint akan didaftarkan ke komputer kamu dan konfirmasi penambahan itu dengan `yes`
+```bash
+Cloning into 'dp-2019'...
+The authenticity of host 'github.com (13.229.188.59)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+
+```
+4. maka repository akan tercopy ke lokal komputer kamu.
