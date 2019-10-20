@@ -11,7 +11,6 @@ Materi pembelajaran Python untuk AMCC divisi Desktop Programming 2019
 ### 1. GitHub
 1. Mendaftar di github menggunakan email students amikom.
 2. Verify akun github yang terkirim ke email kamu.
-catatan : daftar perintah (git)[https://github.com/joshnh/Git-Commands]
 
 ### 2. Bash/Terminal
 Belajar perintah dasar dari bash/terminal
@@ -97,6 +96,10 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
 1. saat ingin menambahkan file baru pada git, caranya `git add Materi-2.md` atau jika file barunya banyak, bisa diganti menjadi `git add .`
 2. saat ingin menambahkan perubahan pada git, caranya `git commit -am "pesan perubahan"`
 
+
+#### 5.Kontribusi Projek
+
+catatan : daftar perintah (git)[https://github.com/joshnh/Git-Commands]
 ---
 
 Sumber :
