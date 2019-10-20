@@ -11,6 +11,7 @@ Materi pembelajaran Python untuk AMCC divisi Desktop Programming 2019
 ### 1. GitHub
 1. Mendaftar di github menggunakan email students amikom.
 2. Verify akun github yang terkirim ke email kamu.
+catatan : daftar perintah (git)[https://github.com/joshnh/Git-Commands]
 
 ### 2. Bash/Terminal
 Belajar perintah dasar dari bash/terminal
