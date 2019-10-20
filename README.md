@@ -102,4 +102,8 @@ Sumber :
 [https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent](https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 [1]:https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account
 
-+Salsabila
+--- Kontributor Proyek Ini:
++ David Rigan
++ Agnes peby thalia mencoba nih belajar git hub
++ Salsabila
+
