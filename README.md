@@ -9,8 +9,14 @@ Materi pembelajaran Python untuk AMCC divisi Desktop Programming 2019
 5. Kolaborasi Projek
 
 ### 1. GitHub
+1. Mendaftar di github menggunakan email students amikom.
+2. Clone repository ini 
+```bash
+git clone git@github.com:dvrg/module-python.git
+```
 
 ### 2. Bash/Terminal
+Belajar perintah dasar dari bash/terminal
 
 ### 3. SSH (Secure Shell)
 Untuk melakukan pembuatan `SSH Key`, ikutin langkah-langkah berikut:
