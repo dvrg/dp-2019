@@ -101,3 +101,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
 Sumber :
 [https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent](https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 [1]:https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account
+
+---
+Kontributor Proyek Ini:
++ David Rigan
