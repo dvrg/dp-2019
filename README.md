@@ -58,7 +58,23 @@ $ git config --global user.name "David Rigan"
 ```
 ### 4. Git
 #### Install Git Client
-1. Untuk client windows, install terlebih dahulu [Git Bash](https://git-scm.com/downloads)
+1. Untuk client windows, install terlebih dahulu [Git Bash](https://git-scm.com/downloads). Tutorial lebih lanjut ada [disini](https://git-scm.com/book/id/v1/Memulai-Git-Menginstall-Git#Menginstall-pada-Sistem-Operasi-Windows)
+2. Seting identitas pengguna
+```bash
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+```
+3. Pastikan akun settingan sudah berhasil dengan cek dengan cara
+```bash
+$ git config --list
+user.name=Scott Chacon
+user.email=schacon@gmail.com
+color.status=auto
+color.branch=auto
+color.interactive=auto
+color.diff=auto
+...
+```
 
 #### 4.1 Clone Repository
 1. pada halaman ini, klik clone repository > copy SSH
