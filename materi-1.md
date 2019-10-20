@@ -5,7 +5,6 @@ heol naneun bogoshipoyoo uri oppa
 + David Rigan
 Hallo, perkenalkan saya seorang mahasiswa akhir yang malas mengerjakan skripsi, tapi senang membagikan ilmu yang sedikit ini.
 
-<<<<<<< HEAD
 GitHub : (https://github.com/dvrg)[https://github.com/dvrg]
 
 
@@ -13,8 +12,6 @@ GitHub : (https://github.com/dvrg)[https://github.com/dvrg]
 haloo, saya mahasiswa Amikom yang sedan belajar memahami coding yang baru malam ini baru dipahami.
 
 GitHub : (https://github.com/yanuarsadyatma911)
-=======
-GitHub : [https://github.com/dvrg](https://github.com/dvrg)
 
 + Salsabila
 Hallo, nama saya salsabila :D
