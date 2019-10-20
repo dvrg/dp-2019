@@ -10,10 +10,7 @@ Materi pembelajaran Python untuk AMCC divisi Desktop Programming 2019
 
 ### 1. GitHub
 1. Mendaftar di github menggunakan email students amikom.
-2. Clone repository ini 
-```bash
-git clone git@github.com:dvrg/module-python.git
-```
+2. Verify akun github yang terkirim ke email kamu.
 
 ### 2. Bash/Terminal
 Belajar perintah dasar dari bash/terminal
@@ -60,6 +57,8 @@ $ git config --global user.email "david.rigan@students.amikom.ac.id"
 $ git config --global user.name "David Rigan"
 ```
 ### 4. Git
+#### Install Git Client
+1. Untuk client windows, install terlebih dahulu [Git Bash](https://git-scm.com/downloads)
 
 #### 4.1 Clone Repository
 1. pada halaman ini, klik clone repository > copy SSH
