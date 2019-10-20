@@ -61,14 +61,14 @@ $ git config --global user.name "David Rigan"
 1. Untuk client windows, install terlebih dahulu [Git Bash](https://git-scm.com/downloads). Tutorial lebih lanjut ada [disini](https://git-scm.com/book/id/v1/Memulai-Git-Menginstall-Git#Menginstall-pada-Sistem-Operasi-Windows)
 2. Seting identitas pengguna
 ```bash
-$ git config --global user.name "John Doe"
-$ git config --global user.email johndoe@example.com
+$ git config --global user.name "David Rigan"
+$ git config --global user.email david.rigan@students.amikom.ac.id
 ```
 3. Pastikan akun settingan sudah berhasil dengan cek dengan cara
 ```bash
 $ git config --list
-user.name=Scott Chacon
-user.email=schacon@gmail.com
+user.name=David Rigan
+user.email=david.rigan@students.amikom.ac.id
 color.status=auto
 color.branch=auto
 color.interactive=auto
