@@ -1,3 +1,103 @@
+
+# 1. Cara Install Git di Linux
+Instalasi Git pada Distro keluarga Debian dapat menggunakan perintah *apt*.
+```sudo apt install git```
+atau
+
+```sudo apt-get install git```
+Pada Fedora:
+
+```yum install git```
+
+Setelah itu, coba perika versi yang terinstal dengan perintah:
+
+```$ git --version```
+
+Pada komputer saya, versi yang terinstal adalah versi 2.7.4.
+
+# 2. Cara Install Git di Windows
+
+Instalasi Git di Windows memang tidak seperti di Linux yang ketik perintah langsung terinstal.
+
+Kita harus men-download dulu, kemudian melakukan ritual next>next>finish.
+
+Tapi dalam ritual tersebut, ada pilihan yang harus diperhatikan agar perintah git dapat dikenali di CMD.
+
+Download Git
+Silahkan buka website resminya Git  >> https://git-scm.com/downloads Kemudian unduh Git sesuai dengan arsitektur komputer kita. Kalau menggunakan 64bit, unduh yang 64bit. Begitu juga kalau menggunakan 32bit.
+
+Langkah-langkah Install Git di Windows
+Baiklah, mari kita mulai ritual instalnya. Silahkan klik 2x file instaler Git yang sudah diunduh.
+
+1. Buka file instalator Git
+
+2. Maka akan muncul infomasi lisensi Git, klik Next > untuk melanjutkan.
+
+3. Informasi tentang Git
+
+4. Selanjutnya menentukan lokasi instalasi. Biarkan saja apa adanya, kemudian klik Next >.
+
+5. Lokasi instalasi Git
+
+6. Selanjutnya pemilihan komoponen, biarkan saja seperti ini kemudian klik Next >.
+
+7. Pemilihan Komponen untuk diinstal
+
+8. Selanjutnya pemlilihan direktori start menu, klik Next >.
+
+9. Pembuatan start menu
+
+10. Selanjutnya pengaturan PATH Environment. Pilih yang tengah agar perintah git dapat di kenali di Command Prompt (CMD). Setelah itu klik Next >.
+
+11. Menentukan Path Environment
+
+12. Selanjutnya konversi line ending. Biarkan saja seperti ini, kemudian klik Next >.
+
+13. Konversi line ending yang akan digunakan
+
+14. Selanjutnya pemilihan emulator terminal. Pilih saja yang bawah, kemudian klik Next >.
+
+15. Pemilihan Terminal Emulator
+
+16. Selanjutnya pemilihan opsi ekstra. Klik saja Next >.
+
+17. Pemilihan Opsi Ekstra
+
+18. Selanjutnya pemilihan opsi ekspreimental, langsung saja klik Install untuk memaulai instalasi.
+
+19. Opsi Eksperimental
+
+20. Tunggu beberapa saat, instalasi sedang dilakukan.
+
+Sedang Menginstall Git
+
+Setelah selesai, kita bisa langsung klik Finish.
+
+Instalasi Git Selesai
+
+Selamat, Git sudah terinstal di Windows. Untuk mencobanya, silahkan buka CMD atau PowerShell, 
+kemudian ketik perintah ```git --version``` lalu klik enter.
+
+
+ 
+# 3. Konfigurasi Awal yang Harus Dilakukan
+Ada beberapa konfigurasi yang harus dupersiapakan sebelum mulai menggunakan Git, seperti name dan email.
+
+Silahkan lakukan konfigurasi dengan perintah berikut ini.
+
+```git config --global user.name``` 
+```git config --global user.email pebythalia@gmail.com```
+Kemudian periksa konfigurasinya dengan perintah:
+
+```git config --list```
+Apabila berhasil tampil seperti gambar berikut ini, berarti konfigurasi berhasil.
+
+konfigurasi git
+
+Konfigurasi core.editor bersifat opsional. Sedangkan name dan email wajib.
+
+Jika kamu memiliki akun Github, Gitlab, Bitbucket atau yang lainnya…
+maka username dan email harus mengikuti akun tersebut agar mudah diintegrasikan.
 # Bahan Ajar Desktop Programming 2019
 Materi pembelajaran Python untuk AMCC divisi Desktop Programming 2019
 
